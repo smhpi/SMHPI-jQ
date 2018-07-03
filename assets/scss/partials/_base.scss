@@ -140,72 +140,61 @@ header{
     }
 }
 
-
 .slide::after{
   clear: both;
   opacity: 1;
 }
 
+section{
+  padding: 10% 5%;
+  background-color: $back-li;
+}
 
-
-article{
-  padding-top: 30px;
+.flex-container{
   clear: both;
   color: white;
-  float: left;
+  //float: left;
   font-family: $raleway;
-  position:relative;
-  background-color: $back-li;
+  //position:relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   width: 100%;
-  line-height: 1.6;}
+  line-height: 1.6;
 
-.profile{
-    padding: 0 5%;
-}
-.cartoon img{
-    width: 80%;
-}
-.highlight{
-    color: $red;
-}
+  .cartoon img{
+      width: 80%;
+  }
 
-@media all and (min-width:600px){
-        padding-top: 70px;
-        .flex-container{
-          display: flex;
-          flex-direction: row;
-          justify-content:flex-start;
-          text-align: left;
-        }
-        .profile{
-          padding: 0 0 0 5%;
-          float: left;
-        }
-        h3{
-          font-size: 2em;
-        }
-        .cartoon{
-          
+  .highlight{
+      color: $red;
+  }
+
+  @media all and (min-width:600px){
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+      text-align: left;
+
+      h3{
+            font-size: 2em;
+      }
+
+      .cartoon{
           img{
-            top: -40%;
-            width: 500px;
-          }
-
-        }
+              top: -40%;
+              width: 500px;
+            }
+      }
 
     }
+}
 .collection{
-  background-color: $back;
+  
   //top: 30px;
   //position: relative;
   text-align: center;
-  //z-index: 2100;
-  //display: flex;
-  flex-direction: column;
   h2{
     font-size: 2em;
   }
