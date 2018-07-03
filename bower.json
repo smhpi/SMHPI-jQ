@@ -1,0 +1,20 @@
+{
+  "name": "hosen",
+  "description": "Hosen Poursaeid Personal Website",
+  "main": "index.html",
+  "authors": [
+    "H.Poursaeid"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^8.0.0"
+  }
+}
