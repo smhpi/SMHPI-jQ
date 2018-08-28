@@ -16,8 +16,7 @@ var config = {
     entry: [
         'webpack-dev-server/client?http://localhost:8080',
         'webpack/hot/only-dev-server',
-        APP_DIR + '/index.js',
-        STYLE_DIR + '/main.scss'
+        APP_DIR + '/index.js'
     ],
     output: {
         devtoolLineToLine: true,
