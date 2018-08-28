@@ -491,7 +491,7 @@ section {
       .flex-container h3 {
         font-size: 2em; }
       .flex-container img {
-        max-width: 50%;
+        max-width: 33.3%;
         float: left; } }
 
 #contacts {
